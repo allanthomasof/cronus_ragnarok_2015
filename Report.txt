@@ -1,0 +1,360 @@
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:46:30 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:46:44 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:46:55 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:46:57 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:46:58 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:01 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:03 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:04 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:48 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:53 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:54 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:56 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:58 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:47:59 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:00 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:38 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:39 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:40 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:42 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:43 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:45 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:46 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:48:48 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:01 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:07 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:08 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:10 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:11 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:13 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:14 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:16 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:18 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:19 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:21 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:22 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:23 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:25 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:26 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:45 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:46 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:47 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:49 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:50 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:52 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:56 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:57 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:49:59 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:00 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:01 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:02 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:10 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:14 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:21 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:22 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:23 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:24 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:25 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:27 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:28 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:30 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:40 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:43 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:48 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:49 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:52 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:53 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:55 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:56 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:58 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:50:59 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:04 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:06 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:09 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:17 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:19 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:21 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:51:23 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:56:25 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:56:32 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:56:43 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:56:54 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:56:56 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:04 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:10 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:33 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:39 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:46 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 11:57:49 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:02:52 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:03:39 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:03:40 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:03:44 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:04:04 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:04:14 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:04:35 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:04:39 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:04:56 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:05:00 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:05:48 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:00 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:10 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:20 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:30 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:41 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:07:55 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:00 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:15 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:18 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:32 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:36 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:52 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:08:55 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:10:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:11:46 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:17:09 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/24/15 12:17:20 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub

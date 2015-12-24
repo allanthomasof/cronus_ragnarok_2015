@@ -27,7 +27,7 @@
 //-------------------------------------------------------------
 
 //Arena de Prontera ===============
-prt_are_in	mapflag	noskill
+//prt_are_in	mapflag	noskill
 
 //Quest o Sinal ===============
 himinn	mapflag	noskill

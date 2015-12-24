@@ -14,33 +14,33 @@ if (getgmlevel() < @lv){
 
 Player:
 mes @npc$;
-mes "Ol? "+strcharinfo(0)+" Voc? ja destruiu "+.@baus+" Ba?s.";
-mes "O que voc? deveja fazer?";
-switch(select("- Entrar na Wot:- Informa??es:- Ver Ranking:- Sair"))
+mes "Olá "+strcharinfo(0)+" Você já destruiu ["+.@baus+"] Baús.";
+mes "O que você deseja fazer?";
+switch(select("- Entrar na Wot:- Informações:- Ver Ranking:- Sair"))
 {
 case 1:
 next;
 if(!getcharid(2)){
 mes @npc$;
-mes "Desculpe mas voc? precisar estar em uma guild para entrar na wot.";
+mes "Desculpe mas você precisar estar em uma guild para entrar na WOT.";
 close;
 }
 if($ligou == 0){
 mes @npc$;
-mes "Desculpe mas voc? n?o pode entrar enquanto a wot estiver fechada.";
+mes "Desculpe mas você não pode entrar enquanto a WOT estiver fechada.";
 close;
 }
 mes @npc$;
-mes "Vamos la te levarei a wot, Boa Sorte.";
+mes "Vamos lá, te levarei a WOT, Boa Sorte.";
 warp "prt_are_in",97,30;
 close;
 
 case 2:
 next;
 mes @npc$;
-mes "Wot ? um evento que ocorre de 3 em 3 horas em uma sala quando o evento e iniciado basta falar comigo que eu levo os jogadores para uma sala";
-mes "Depois de 10 minutos o evento e fechado e ningu?m mais entra no mapa o gvg ? ligado e apos 10 minutos de batalha o gvg e desligadoe aparecem";
-mes "dois b?us como pr?mio um em cada sala, esses ba?s dropam pr?mios que s?o configurados pelo administrador.";
+mes "Wot é um evento que ocorre de 3 em 3 horas em uma sala quando o evento e iniciado basta falar comigo que eu levo os jogadores para uma sala";
+mes "Depois de 10 minutos o evento e fechado e ninguém mais entra no mapa o gvg é ligado e apos 10 minutos de batalha o gvg e desligado e aparecem";
+mes "dois baús como prêmio um em cada sala, esses baús dropam prêmios que são configurados pelo administrador.";
 close;
 
 case 3:
@@ -54,9 +54,9 @@ close;
 query_sql "SELECT `name`, `baus` FROM `char` WHERE '"+getcharid(O)+"' ORDER BY `baus` DESC LIMIT 10",@nome$,@pontosbau;
 next;
 mes @npc$;
-mes "Posi??o - Nome - Ba?s";
+mes "Posição - Nome - Baús";
 for (set .@i,0; .@i < $rank; set .@i, .@i + 1)
-mes (.@i+1)+"? - "+@nome$[.@i]+" - "+@pontosbau[.@i]+"";
+mes (.@i+1)+"º - "+@nome$[.@i]+" - "+@pontosbau[.@i]+"";
 close;
 
 case 4:
@@ -68,18 +68,18 @@ close;
 }
 
 mes @npc$;
-mes "Ol? "+strcharinfo(0)+" O que deseja fazer?";
+mes "Olá "+strcharinfo(0)+" O que deseja fazer?";
 switch(select("- Configurar a wot:- Entrar na Wot:- Modo Player"))
 {
 case 1:
-switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modificar Limite de jogadores no Ranking:- Resetar Ranking da Wot"))
+switch(select("- Modificar Premiação:- Adicionar Premiação de Cash:- Modificar Limite de jogadores no Ranking:- Resetar Ranking da Wot"))
 {
     case 1:
     next;
     mes @npc$;
-    mes "VocÃª pode configurar atÃ© 10 itens como prÃªmio da WOT,";
-    mes "Deseja configurar a premiaÃ§Ã£o da WOT?";
-    switch(select("- Sim:- NÃ£o"))
+    mes "Você pode configurar até 10 itens como prêmio da WOT,";
+    mes "Deseja configurar a premiação da WOT?";
+    switch(select("- Sim:- Não"))
     {
         case 1:
         next;
@@ -164,7 +164,7 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
         input @qtd10;
         next;
     mes @npc$;
-    mes "Os itens que voc? escolheu como premia??o s?o:";
+    mes "Os itens que você escolheu como premiação são:";
     mes ""+@qtd1+" "+getitemname(@premio1);
     mes ""+@qtd2+" "+getitemname(@premio2);
     mes ""+@qtd3+" "+getitemname(@premio3);
@@ -177,13 +177,13 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
     mes ""+@qtd10+" "+getitemname(@premio10);
     next;
     mes @npc$;
-    mes "Tem certeja que deseja deixar assim a premia??o da sua wot?";
-    switch(select("- Sim:- N?o"))
+    mes "Tem certeza que deseja deixar assim a premiação da sua WOT?";
+    switch(select("- Sim:- Não"))
     {
         case 1:
         next;
         mes @npc$;
-        mes "A Wot foi configurada com sucesso.";
+        mes "A WOT foi configurada com sucesso!";
         close2;
         setarray $premio[0],@premio1,@premio2,@premio3,@premio4,@premio5,@premio6,@premio7,@premio8,@premio9,@premio10;
         setarray $qtd[0],@qtd1,@qtd2,@qtd3,@qtd4,@qtd5,@qtd6,@qtd7,@qtd8,@qtd9,@qtd10;
@@ -207,25 +207,25 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
                 next;
                 mes @npc$;
                 mes "Dijite o valor de cash que deseja adicionar";
-                mes "0 = N?o premiar cash";
+                mes "0 = Não premiar cash";
                 input $cash;
                 if(0 == $cash){
                 next;
                 mes @npc$;
-                mes "Premia??o de cash foi cancelada.";
+                mes "Premiação de cash foi cancelada.";
                 set $cash,0;
                 close;
                 }
 
             next;
             mes @npc$;
-            mes "Tem certeza que deseja adicionar "+$cash+" Cash's como premia??o?";
-            switch(select("- Sim:- N?o"))
+            mes "Tem certeza que deseja adicionar "+$cash+" Cash's como premiação?";
+            switch(select("- Sim:- Não"))
             {
                 case 1:
                 next;
                 mes @npc$;
-                mes "Premia??o de cash foi configurada com sucesso";
+                mes "Premiação de cash foi configurada com sucesso";
                 close;
 
                 case 2:
@@ -239,7 +239,7 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
                 next;
 
                 mes @npc$;
-                mes "Dijite o limite m?ximo de jogadores que vai aparecer no ranking";
+                mes "Digite o limite máximo de jogadores que vão aparecer no ranking";
                 mes "0 = Desativar Ranking";
                 input @rank;
                 if(0 == @rank){
@@ -251,14 +251,14 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
                 }
             next;
             mes @npc$;
-            mes "Tem certeza que deseja modificar O limite m?ximo do ranking para "+@rank+" Jogadores?";
-            switch(select("- Sim:- N?o"))
+            mes "Tem certeza que deseja modificar O limite máximo do ranking para "+@rank+" Jogadores?";
+            switch(select("- Sim:- Não"))
             {
 
         case 1:
         next;
         mes @npc$;
-        mes "O Limite de jogadores da wot foi alterado com sucesso.";
+        mes "O Limite de jogadores da WOT foi alterado com sucesso.";
         setarray $rank[0],@rank;
         close;
 
@@ -271,14 +271,14 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
     case 4:
     next;
     mes @npc$;
-    mes "Tem certeza que deseja resetar o ranking da wot?";
+    mes "Tem certeza que deseja resetar o ranking da WOT?";
             switch(select("- Sim:- N?o"))
             {
 
         case 1:
         next;
         mes @npc$;
-        mes "O Ranking da wot foi resetada com sucesso.";
+        mes "O Ranking da WOT foi resetada com sucesso.";
         query_sql "UPDATE `char` set `baus` = '0'";
         close;
 
@@ -293,7 +293,7 @@ switch(select("- Modificar PremiaÃ§Ã£o:- Adicionar PremiaÃ§Ã£o de Cash:- Modific
 
 case 2:
 mes @npc$;
-mes "Tudo bem te levarei ao mapa da wot.";
+mes "Tudo bem te levarei ao mapa da WOT.";
 warp "prt_are_in",97,30;
 close;
 
@@ -302,48 +302,45 @@ goto Player;
 close;
 }
 
-OnClock0000: callsub EventoWOT;
-OnClock0200: callsub EventoWOT;
-OnClock0400: callsub EventoWOT;
-OnClock0600: callsub EventoWOT;
-OnClock0800: callsub EventoWOT;
-OnClock1000: callsub EventoWOT;
-OnClock1200: callsub EventoWOT;
-OnClock1400: callsub EventoWOT;
-OnClock1600: callsub EventoWOT;
-
-OnClock1717: callsub EventoWOT;
-
-OnClock1800: callsub EventoWOT;
-OnClock2000: callsub EventoWOT;
-OnClock2200: callsub EventoWOT;
+OnClock0045: callsub EventoWOT;
+OnClock0245: callsub EventoWOT;
+OnClock0445: callsub EventoWOT;
+OnClock0645: callsub EventoWOT;
+OnClock0845: callsub EventoWOT;
+OnClock1045: callsub EventoWOT;
+OnClock1245: callsub EventoWOT;
+OnClock1445: callsub EventoWOT;
+OnClock1645: callsub EventoWOT;
+OnClock1845: callsub EventoWOT;
+OnClock2045: callsub EventoWOT;
+OnClock2245: callsub EventoWOT;
 
 
 EventoWOT:
 gvgon "prt_are_in";
-announce "[Guerra dos Tesouros] Os baus aparecerao em 15 minutos!",8;
+announce "[Guerra dos Tesouros] Os baús aparecerão em 15 minutos!",8;
 set $ligou,1;
 set $ligou,0;
 initnpctimer;
 end;
 
 OnTimer600000:
-announce "[Guerra dos Tesouros] Os baus aparecerao em 5 minutos!",8;
+announce "[Guerra dos Tesouros] Os baús aparecerão em 5 minutos!",8;
 end;
 
 OnTimer840000:
-announce "[Guerra dos Tesouros] Os baus aparecerao em 1 minuto!",8;
+announce "[Guerra dos Tesouros] Os baús aparecerão em 1 minuto!",8;
 end;
 
 OnTimer900000:
 //gvgoff "prt_are_in";
 if (getmapusers("prt_are_in") == 0 ){
-announce "[Guerra dos Tesouros] Os baus nao apareceram por que nao ha jogadores suficientes na WOT",8;
+announce "[Guerra dos Tesouros] Os baús não apareceram por que não há jogadores suficientes na WOT",8;
 stopnpctimer;
 end;
 }
 //gvgoff "prt_are_in";
-mapannounce "prt_are_in","[Guerra dos Tesouros] Os baus apareceram!",8;
+mapannounce "prt_are_in","[Guerra dos Tesouros] Os baús apareceram!",8;
 monster "prt_are_in",178,88,"Bau do Tesouro",1324,1,"War of Treasure::OnThisMobDeath";
 monster "prt_are_in",126,88,"Bau do Tesouro",1324,1,"War of Treasure::OnThisMobDeath";
 stopnpctimer;
@@ -354,10 +351,10 @@ query_sql "UPDATE `char` SET `baus` = `baus` +1 WHERE `char_id`="+@char+"";
 for ( set @i, 0; $premio[@i]; set @i, @i + 1 )
 for ( set @i, 0; $qtd[@i]; set @i, @i + 1 )
 getitem $premio[@i], $qtd[@i];
-announce "[Guerra dos Tesouros] O Jogador "+strcharinfo(0)+" acaba de destruir um dos baÃºs!",8;
+announce "[Guerra dos Tesouros] O Jogador "+strcharinfo(0)+" acaba de destruir um dos baús!",8;
 if( $cash == 0){ end; }
 set #CASHPOINTS,#CASHPOINTS+$cash;
-dispbottom "VocÃª Acaba de ganhar "+$cash+" Cashs";
+dispbottom "Você Acaba de ganhar "+$cash+" Cashs";
 end;
 
 }
