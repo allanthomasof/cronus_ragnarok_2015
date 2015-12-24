@@ -23,8 +23,8 @@
 -	script	Curandeira	-1,{
 
 	.@price = 0;	// Zeny necessário para curar um jogador (Padrão: 0 Desativado)
-	.@Buffs = 0;	// Aplicar Buffs em jogadores? (1: Ativado / 0: Desativado)
-	.@Delay = 0;	// Aplicar tempo de espera(Em segundos) para usar o npc? (Padrão: 0 Desativado)
+	.@Buffs = 1;	// Aplicar Buffs em jogadores? (1: Ativado / 0: Desativado)
+	.@Delay = 1;	// Aplicar tempo de espera(Em segundos) para usar o npc? (Padrão: 0 Desativado)
 
 	if (@HD > gettimetick(2)) end;
 	if (.@price) {

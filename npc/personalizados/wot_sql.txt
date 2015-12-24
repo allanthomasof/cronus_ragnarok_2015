@@ -341,8 +341,8 @@ end;
 }
 //gvgoff "prt_are_in";
 mapannounce "prt_are_in","[Guerra dos Tesouros] Os baús apareceram!",8;
-monster "prt_are_in",178,88,"Bau do Tesouro",1324,1,"War of Treasure::OnThisMobDeath";
-monster "prt_are_in",126,88,"Bau do Tesouro",1324,1,"War of Treasure::OnThisMobDeath";
+monster "prt_are_in",178,88,"Bau do Tesouro",1351,1,"War of Treasure::OnThisMobDeath";
+monster "prt_are_in",126,88,"Bau do Tesouro",1351,1,"War of Treasure::OnThisMobDeath";
 stopnpctimer;
 
 OnThisMobDeath:

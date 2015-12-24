@@ -28,7 +28,7 @@
 
 /// Modo renovação
 /// Deixe esta linha ativada para uso de mudanças específicas da renovação (e.g Fórmulas das Habilidades, status e etc)
-//#define RENEWAL
+#define RENEWAL
 
 /// Modo renovação - Conjuração
 /// Tempo de conjuração: Reduzido por (DEX * 2 + INT) enquanto 20% do cast não é removido pelos status (Apenas por itens)
