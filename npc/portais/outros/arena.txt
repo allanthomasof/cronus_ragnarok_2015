@@ -35,7 +35,34 @@
 
 
 //portal para a primeira sala da wot
-izlude,128,226,0	warp	welcome_arena	1,1,arena_room,99,98
+//izlude,128,226,0	warp	welcome_arena	1,1,arena_room,99,98{
+//	if(!getcharid(2)){
+//		mes @npc$;
+//		mes "Desculpe mas você precisar estar em uma guild para entrar na WOT.";
+//		close;
+//	}
+//}
+
+izlude,128,226,0	script	Porteiro	45,3,3,{
+	end;
+	OnTouch:	
+
+	if(!getcharid(2))
+	{
+		mes @npc$;
+		mes "Desculpe mas voce precisar estar em uma guild para entrar na WOT.";
+		close;
+	} else {
+		set @rand, rand(1,4);
+		if(@rand == 1) { warp "arena_room",118,88; }
+		if(@rand == 2) { warp "arena_room",113,101; }
+		if(@rand == 3) { warp "arena_room",86,101; }
+		if(@rand == 4) { warp "arena_room",81,88; }
+		end;
+	}
+	close;
+	
+}
 
 //portal da primeira sala para a segunda sala da wot
 arena_room,99,24,0	warp	bye_arena	2,2,prt_are_in,98,23
