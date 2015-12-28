@@ -1,4 +1,4 @@
-prontera,165,229,5	script	War of Treasure	62,{
+prontera,168,229,5	script	War of Treasure	62,{
 
 query_sql "SELECT `baus` FROM `char` WHERE `char_id` = '"+getcharid(0)+"'", .@baus;
 
@@ -32,7 +32,7 @@ close;
 }
 mes @npc$;
 mes "Vamos lá, te levarei a WOT, Boa Sorte.";
-warp "prt_are_in",97,30;
+warp "izlude",128,222;
 close;
 
 case 2:
@@ -351,21 +351,10 @@ query_sql "UPDATE `char` SET `baus` = `baus` +1 WHERE `char_id`="+@char+"";
 for ( set @i, 0; $premio[@i]; set @i, @i + 1 )
 for ( set @i, 0; $qtd[@i]; set @i, @i + 1 )
 getitem $premio[@i], $qtd[@i];
-announce "[Guerra dos Tesouros] O Jogador "+strcharinfo(0)+" acaba de destruir um dos baús!",8;
+announce "[Guerra dos Tesouros] O jogador [ "+strcharinfo(0)+" ] do clã [ "+strcharinfo(2)+" ] destruiu um dos baús!",8;
 if( $cash == 0){ end; }
 set #CASHPOINTS,#CASHPOINTS+$cash;
 dispbottom "Você Acaba de ganhar "+$cash+" Cashs";
 end;
 
 }
-
-// Portais
-
-//izlude,128,226,0    warp    War Of Treasure1    1,1,prt_are_in,98,6
-//prt_are_in,55,13,0    warp    War Of Treasure2    1,1,prt_are_in,177,129
-//prt_are_in,177,127,0    warp    War Of Treasure3    1,1,prt_are_in,57,13
-//prt_are_in,21,75,0    warp    War Of Treasure4    1,1,prt_are_in,140,13
-//prt_are_in,142,13,0    warp    War Of Treasure5    1,1,prt_are_in,21,77
-
-// Mapflag
-//prt_are_in    mapflag    noloot
