@@ -354,7 +354,7 @@ getitem $premio[@i], $qtd[@i];
 announce "[Guerra dos Tesouros] O jogador [ "+strcharinfo(0)+" ] do clã [ "+strcharinfo(2)+" ] destruiu um dos baús!",8;
 if( $cash == 0){ end; }
 set #CASHPOINTS,#CASHPOINTS+$cash;
-dispbottom "Você Acaba de ganhar "+$cash+" Cashs";
+dispbottom "Você acaba de ganhar "+$cash+" Cashs";
 end;
 
 }

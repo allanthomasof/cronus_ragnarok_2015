@@ -95,6 +95,7 @@ force_5-1	mapflag	nowarpto
 force_1-2	mapflag	nowarpto
 force_1-3	mapflag	nowarpto
 prt_are_in	mapflag	nowarpto
+arena_room	mapflag	nowarpto
 
 //Corridas de Monstros ================
 p_track01	mapflag	nowarpto
