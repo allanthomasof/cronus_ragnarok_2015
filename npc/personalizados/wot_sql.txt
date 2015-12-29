@@ -332,7 +332,8 @@ OnTimer840000:
 announce "[Guerra dos Tesouros] Os baús aparecerão em 1 minuto!",8;
 end;
 
-OnTimer900000:
+//OnTimer900000:
+OnTimer1000:
 //gvgoff "prt_are_in";
 if (getmapusers("prt_are_in") == 0 ){
 announce "[Guerra dos Tesouros] Os baús não apareceram por que não há jogadores suficientes na WOT",8;
@@ -348,13 +349,13 @@ stopnpctimer;
 OnThisMobDeath:
 set @char,getcharid(0);
 query_sql "UPDATE `char` SET `baus` = `baus` +1 WHERE `char_id`="+@char+"";
-for ( set @i, 0; $premio[@i]; set @i, @i + 1 )
-for ( set @i, 0; $qtd[@i]; set @i, @i + 1 )
-getitem $premio[@i], $qtd[@i];
+//for ( set @i, 0; $premio[@i]; set @i, @i + 1 )
+//for ( set @i, 0; $qtd[@i]; set @i, @i + 1 )
+//getitem $premio[@i], $qtd[@i];
 announce "[Guerra dos Tesouros] O jogador [ "+strcharinfo(0)+" ] do clã [ "+strcharinfo(2)+" ] destruiu um dos baús!",8;
-if( $cash == 0){ end; }
-set #CASHPOINTS,#CASHPOINTS+$cash;
-dispbottom "Você acaba de ganhar "+$cash+" Cashs";
+//if( $cash == 0){ end; }
+set #CASHPOINTS,#CASHPOINTS+100;
+dispbottom "Você recebeu 100 pontos de Cash que podem ser trocados por itens!";
 end;
 
 }
