@@ -332,8 +332,7 @@ OnTimer840000:
 announce "[Guerra dos Tesouros] Os baús aparecerão em 1 minuto!",8;
 end;
 
-//OnTimer900000:
-OnTimer1000:
+OnTimer900000:
 //gvgoff "prt_are_in";
 if (getmapusers("prt_are_in") == 0 ){
 announce "[Guerra dos Tesouros] Os baús não apareceram por que não há jogadores suficientes na WOT",8;
