@@ -643,3 +643,9 @@ Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
 
 Ponteiro nulo. Data/Hora: 12/30/15 17:11:27 
 Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/31/15 10:53:17 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
+
+Ponteiro nulo. Data/Hora: 12/31/15 10:55:12 
+Arquivo: unit.c | Linha: 1862 | Proc: unit_attack_timer_sub
